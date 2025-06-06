@@ -56,8 +56,8 @@ let inventarioAlpha = [
     ["Terminal de Dobra", "Alpha Centauri", 10500]
   ];
 
-  // 01
-// removendo o ultimo item
+// 01
+// removendo o ultimo item do inventarioAlpha
 let itemRemovido = inventarioAlpha.pop();
 
 console.table(inventarioAlpha);  
@@ -65,3 +65,10 @@ console.table(inventarioAlpha);
 console.log("Item removido: ", itemRemovido);
 
   
+// 02
+// removendo o ultimo item do inventarioBeta
+itemRemovido = inventarioBeta.pop();
+
+console.table(inventarioBeta);  
+
+console.log("Item removido: ", itemRemovido);
