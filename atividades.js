@@ -181,3 +181,12 @@ console.log(itemRemovido);
 // 17
 // Combinando os inventarios
 console.log("inventarios combinados:", inventarioAlpha.concat(inventarioBeta));
+
+
+// 18
+// Junte os cinco primeiros itens de cada nave em uma nova vitrine 
+
+let inventarioBetaVitrine =  inventarioBeta.slice(0, 5);
+ let inventarioAlphaVitrine =  inventarioAlpha.slice(0, 5);
+ let inventarioCombinado = inventarioBetaVitrine.concat(inventarioAlphaVitrine);
+ console.table(inventarioCombinado);
