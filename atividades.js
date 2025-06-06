@@ -159,3 +159,12 @@ console.log("Os 10 primeiros itens da lista separados:", inventarioBeta.slice(0,
 // 14
 // Separando os 10 ultimos itens da lista
 console.log("Os 10 ultimos itens da lista separados:", inventarioAlpha.slice(15, 25))
+
+
+// 15
+// Substituindo item no array
+inventarioAlpha[5] = (["Núcleo de Plasma", "Kepler-452b", 9100]);
+
+console.table(inventarioAlpha);
+
+
