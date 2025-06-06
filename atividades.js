@@ -93,7 +93,7 @@ inventarioBeta.push(["Artefato 2", "valinhos", 25638567]);
 console.table(inventarioBeta);
 
 
-//05
+// 05
 //Destaca um item no inicio 
 let itemDestacado = inventarioAlpha[4];
 inventarioAlpha.unshift(itemDestacado);
@@ -106,7 +106,7 @@ inventarioAlpha.splice(5, 1);
 console.log(inventarioAlpha);
 
 
-//06
+// 06
 //Destaca um item no inicio 
 itemDestacado = inventarioBeta[8];
 inventarioBeta.unshift(itemDestacado);
@@ -119,10 +119,19 @@ inventarioBeta.splice(9, 1);
 console.log(inventarioBeta);
 
 
-//07
+// 07
 // Removendo o primeiro item
 itemRemovido = inventarioAlpha.shift();
 
 console.table(inventarioAlpha);
+
+console.log("itemRemovido: ", itemRemovido);
+
+
+// 08
+// Removendo o primeiro item
+itemRemovido = inventarioBeta.shift();
+
+console.table(inventarioBeta);
 
 console.log("itemRemovido: ", itemRemovido);
