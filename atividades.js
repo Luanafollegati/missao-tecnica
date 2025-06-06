@@ -178,3 +178,6 @@ console.table(inventarioBeta);
 
 console.log(itemRemovido);
 
+// 17
+// Combinando os inventarios
+console.log("inventarios combinados:", inventarioAlpha.concat(inventarioBeta));
