@@ -150,3 +150,7 @@ console.log(`O inventario inclui 'Nanofibra Luminosa'? ${inventarioBeta.includes
 // Separando os 10 primeiros itens da lista por ponto e virgula
 console.log("Os 10 primeiros itens da lista separados por ponto e virgula:", inventarioBeta.slice(0, 10).join("; "));
 
+
+// 13
+// Separando os 5 primeiros itens da lista
+console.log("Os 10 primeiros itens da lista separados:", inventarioBeta.slice(0, 5))
