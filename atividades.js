@@ -117,3 +117,12 @@ console.table(inventarioBeta);
 inventarioBeta.splice(9, 1);
 
 console.log(inventarioBeta);
+
+
+//07
+// Removendo o primeiro item
+itemRemovido = inventarioAlpha.shift();
+
+console.table(inventarioAlpha);
+
+console.log("itemRemovido: ", itemRemovido);
