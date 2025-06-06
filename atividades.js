@@ -190,3 +190,11 @@ let inventarioBetaVitrine =  inventarioBeta.slice(0, 5);
  let inventarioAlphaVitrine =  inventarioAlpha.slice(0, 5);
  let inventarioCombinado = inventarioBetaVitrine.concat(inventarioAlphaVitrine);
  console.table(inventarioCombinado);
+
+
+ // 19
+ // uma versão com os nomes de todos os itens da Beta em letras maiúsculas.
+
+ let betaMaiusculo = inventarioBeta.map(itens => inventarioBeta.toUpperCase());
+
+console.log("inventario beta em maiúsculas:", betaMaiusculo);
