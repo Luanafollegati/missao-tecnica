@@ -91,3 +91,16 @@ inventarioBeta.push(["Artefato 1", "senai", 239756]);
 inventarioBeta.push(["Artefato 2", "valinhos", 25638567]);
 
 console.table(inventarioBeta);
+
+
+//05
+//Destaca um item no inicio 
+let itemDestacado = inventarioAlpha[4];
+inventarioAlpha.unshift(itemDestacado);
+
+console.table(inventarioAlpha);
+
+// Removendo elemento 
+inventarioAlpha.splice(5, 1);
+
+console.log(inventarioAlpha)
