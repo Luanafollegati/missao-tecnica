@@ -198,3 +198,14 @@ let inventarioBetaVitrine =  inventarioBeta.slice(0, 5);
  let betaMaiusculo = inventarioBeta.map(itens => inventarioBeta.toUpperCase());
 
 console.log("inventario beta em maiúsculas:", betaMaiusculo);
+
+
+// 26
+//Inverta a ordem dos 15 primeiros itens da Alpha
+let primeirositens = inventarioAlpha.slice(0,16);
+let ultimositens = inventarioAlpha.slice(17,28);
+
+primeirosItensInvertidos = primeirositens.reverse();
+console.log(" primeiros itens em lista ",primeirositens);
+console.log("ultimos itens em lista ",ultimositens);
+console.log(`Lista final: ${primeirosItensInvertidos.concat(ultimositens)}`) 
