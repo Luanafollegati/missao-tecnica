@@ -154,3 +154,8 @@ console.log("Os 10 primeiros itens da lista separados por ponto e virgula:", inv
 // 13
 // Separando os 5 primeiros itens da lista
 console.log("Os 10 primeiros itens da lista separados:", inventarioBeta.slice(0, 5))
+
+
+// 14
+// Separando os 10 ultimos itens da lista
+console.log("Os 10 ultimos itens da lista separados:", inventarioAlpha.slice(15, 25))
