@@ -168,3 +168,13 @@ inventarioAlpha[5] = (["Núcleo de Plasma", "Kepler-452b", 9100]);
 console.table(inventarioAlpha);
 
 
+// 16
+// Removendo 2 itens a partir do indice 2
+itemRemovido = inventarioBeta.splice(2, 2);
+console.table(inventarioBeta);
+
+console.log("dois itens no meio do inventario beta removidos:");
+console.table(inventarioBeta);
+
+console.log(itemRemovido);
+
