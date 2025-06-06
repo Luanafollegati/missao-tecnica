@@ -82,3 +82,12 @@ inventarioAlpha.push(["Artefato 2", "valinhos", 25567]);
 inventarioAlpha.push(["Artefato 3", "sesi", 793457]);
 
 console.table(inventarioAlpha);
+
+
+// 04
+// adicionando novos artefatos
+
+inventarioBeta.push(["Artefato 1", "senai", 239756]);
+inventarioBeta.push(["Artefato 2", "valinhos", 25638567]);
+
+console.table(inventarioBeta);
