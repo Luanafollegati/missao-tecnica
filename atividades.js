@@ -146,3 +146,7 @@ console.log(`O inventario inclui 'Relíquia de Zordon'? ${inventarioBeta.include
 // Verificando se a “Nanofibra Luminosa” está presente no inventário Alpha
 console.log(`O inventario inclui 'Nanofibra Luminosa'? ${inventarioBeta.includes("Nanofibra Luminosa")} `);
 
+// 12
+// Separando os 10 primeiros itens da lista por ponto e virgula
+console.log("Os 10 primeiros itens da lista separados por ponto e virgula:", inventarioBeta.slice(0, 10).join("; "));
+
