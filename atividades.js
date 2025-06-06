@@ -103,4 +103,17 @@ console.table(inventarioAlpha);
 // Removendo elemento 
 inventarioAlpha.splice(5, 1);
 
-console.log(inventarioAlpha)
+console.log(inventarioAlpha);
+
+
+//06
+//Destaca um item no inicio 
+itemDestacado = inventarioBeta[8];
+inventarioBeta.unshift(itemDestacado);
+
+console.table(inventarioBeta);
+
+// Removendo elemento 
+inventarioBeta.splice(9, 1);
+
+console.log(inventarioBeta);
