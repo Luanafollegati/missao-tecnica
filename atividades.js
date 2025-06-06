@@ -72,3 +72,13 @@ itemRemovido = inventarioBeta.pop();
 console.table(inventarioBeta);  
 
 console.log("Item removido: ", itemRemovido);
+
+
+// 03
+// adicionando novos artefatos
+
+inventarioAlpha.push(["Artefato 1", "senai", 23456]);
+inventarioAlpha.push(["Artefato 2", "valinhos", 25567]);
+inventarioAlpha.push(["Artefato 3", "sesi", 793457]);
+
+console.table(inventarioAlpha);
